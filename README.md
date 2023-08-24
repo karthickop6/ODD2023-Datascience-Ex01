@@ -220,22 +220,27 @@ df.head()
 df['watchers']=df['watchers'].fillna(df['watchers'].median())
 df.head()
 ```
+![](./13.png)
+
 
 ## NON NULL AFTER:
 
 ```
 df.info()
 ```
-![](./13.png)
+![](./14.png)
 
 ```
 df.isnull()
 ```
-![](./14.png)
+![](./15.png)
     
 ```
 df.isnull().sum()
 ```
+
+![](./16.png)
+
 
 # RESULT:
 
