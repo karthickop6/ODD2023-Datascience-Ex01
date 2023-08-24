@@ -214,3 +214,32 @@ df.head()
 
 ![](./12.png)
 
+## MEDIAN:
+
+```
+df['watchers']=df['watchers'].fillna(df['watchers'].median())
+df.head()
+```
+
+## NON NULL AFTER:
+
+```
+df.info()
+```
+![](./13.png)
+
+```
+df.isnull()
+```
+![](./14.png)
+    
+```
+df.isnull().sum()
+```
+
+# RESULT:
+
+Thus,the given data is read,cleansed and the cleaned data is saved into the file.
+
+
+
