@@ -87,6 +87,8 @@ print(df)
 df.head(10)
 ```
 
+![](./1.png)
+
 
 
 
@@ -97,6 +99,8 @@ df.head(10)
 ```
 df.info
 ```
+![](./2.png)
+
 
 
 ## MODE:
@@ -109,6 +113,9 @@ df['Gender']=df['Gender'].fillna(df['Gender'].mode()[0])
 df.head()
 ```
 
+![](./3.png)
+
+
 ## MEAN:
 ```
 df['ApplicantIncome']=df['ApplicantIncome'].fillna(df['ApplicantIncome'].mean())
@@ -117,22 +124,36 @@ df['LoanAmount']=df['LoanAmount'].fillna(df['LoanAmount'].mean())
 df.head()
 ```
 
+![](./4.png)
+
+
 ## MEDIAN:
 ```
 df['Credit_History']=df['Credit_History'].fillna(df['Credit_History'].median())
 df.head()
 ```
 
+![](./5.png)
+
+
 ## NON NULL AFTER:
 
 ```
 df.info()
-```
 
+
+![](./1.png)
+
+
+
+```
 
 ```
 df.isnull().sum()
 ```
+
+![](./6.png)
+
 
 ## FOR DATA_SET:
 ### DATA
@@ -143,21 +164,33 @@ print(df)
 df.head(10)
 ```
 
+![](./7.png)
+
+
 
 ## NON NULL BEFORE:
 ```
 df.info()
 ```
 
+![](./8.png)
+
+
 
 ```
 df.isnull()
 ```
 
+![](./9.png)
+
+
 
 ```
 df.isnull().sum()
 ```
+
+![](./10.png)
+
 
 
 ## MODE:
@@ -168,6 +201,8 @@ df['original_network']=df['original_network'].fillna(df['aired_on'].mode()[0])
 df.head()
 ```
 
+![](./11.png)
+
 
 ## MEAN:
 
@@ -176,3 +211,6 @@ df['rating']=df['rating'].fillna(df['rating'].mean())
 df['current_overall_rank']=df['current_overall_rank'].fillna(df['current_overall_rank'].mean())
 df.head()
 ```
+
+![](./12.png)
+
