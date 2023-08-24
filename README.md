@@ -140,19 +140,19 @@ df.head()
 
 ```
 df.info()
-
-
-![](./1.png)
-
-
-
 ```
+
+![](./6.png)
+
+
+
+
 
 ```
 df.isnull().sum()
 ```
 
-![](./6.png)
+![](./7.png)
 
 
 ## FOR DATA_SET:
@@ -164,7 +164,7 @@ print(df)
 df.head(10)
 ```
 
-![](./7.png)
+![](./8.png)
 
 
 
@@ -173,7 +173,7 @@ df.head(10)
 df.info()
 ```
 
-![](./8.png)
+![](./9.png)
 
 
 
@@ -181,7 +181,7 @@ df.info()
 df.isnull()
 ```
 
-![](./9.png)
+![](./10.png)
 
 
 
@@ -189,7 +189,7 @@ df.isnull()
 df.isnull().sum()
 ```
 
-![](./10.png)
+![](./11.png)
 
 
 
@@ -201,7 +201,7 @@ df['original_network']=df['original_network'].fillna(df['aired_on'].mode()[0])
 df.head()
 ```
 
-![](./11.png)
+![](./12.png)
 
 
 ## MEAN:
@@ -212,7 +212,7 @@ df['current_overall_rank']=df['current_overall_rank'].fillna(df['current_overall
 df.head()
 ```
 
-![](./12.png)
+![](./13.png)
 
 ## MEDIAN:
 
@@ -220,7 +220,7 @@ df.head()
 df['watchers']=df['watchers'].fillna(df['watchers'].median())
 df.head()
 ```
-![](./13.png)
+![](./14.png)
 
 
 ## NON NULL AFTER:
@@ -228,18 +228,18 @@ df.head()
 ```
 df.info()
 ```
-![](./14.png)
+![](./15.png)
 
 ```
 df.isnull()
 ```
-![](./15.png)
+![](./16.png)
     
 ```
 df.isnull().sum()
 ```
 
-![](./16.png)
+![](./17.png)
 
 
 # RESULT:
